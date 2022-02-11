@@ -6,7 +6,7 @@ node{
   }
   stage("FinalTest") {
     sh """
-        echo "Hi, this is the final version"
+        echo "Let's see"
         """
   }
     
