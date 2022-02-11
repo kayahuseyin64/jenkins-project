@@ -4,8 +4,10 @@ node{
       echo "Hello"
     """
   }
-  stage("FinalTest"
+  stage("FinalTest") {
     sh """
         echo "Hi, this is the final version"
         """
+  }
+    
 }
